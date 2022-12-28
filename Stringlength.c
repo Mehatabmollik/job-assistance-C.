@@ -1,6 +1,8 @@
 #include<stdio.h>
-int main(){
-    int x=printf("Coding ");
-    printf("Length of the String %d ",x);
-    return 0;
+int main()
+{
+    char str[]="Mehatab",i=0;
+    for(i=0;str[i];i++);
+    printf("Length of str %d",i);
+
 }
